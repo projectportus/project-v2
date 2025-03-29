@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+nav{
+    background-color: yellowgreen;
+}
+.logoBox{
+    font-family: var(--font-primary);
+}
+.link-items{
+    font-family: var(--font-primary);
+    font-weight: 600;
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.banner-a{
+    background-color: #FCF8F3;
+}
+.text-tle{
+    font-family: var(--font-primary);
+    color:black;
+}
+p{
+    color:black;
+}
