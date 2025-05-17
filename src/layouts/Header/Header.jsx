@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from "react-router-dom";
 import logo from '@/assets/images/header/logo.svg';
 import '@/layouts/Header/Header.css'
-import icons  from '@/assets/icons/header-icons/icons'
+import icons  from '@/assets/icons/header-icons/Icons.jsx'
 
 const Header = ({ setIsOpen }) => {
   const [open, setOpen] = useState(false);
