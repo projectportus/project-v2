@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import Icons from '@/assets/icons/header-icons/Icons.jsx';
+import Icons from '@/assets/icons/header-icons/icons.jsx';
 
 const productСard = ({product,offer, bagdeStatus, discount}) => {
   let color = discount ? "#E97171" : "#2EC1AC";
