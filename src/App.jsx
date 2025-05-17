@@ -15,16 +15,16 @@ function App() {
 
   return (
     <>
-      <Router basename="/project-v2">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact-us" element={<ContactUs/>} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/single-product" element={<SingleProduct />} />
-          <Route path="/shopping-cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
-        </Routes>
-      </Router>
+      <Router>
+       <Routes>
+         <Route path="/" element={<Home />} />
+         <Route path="/contact-us" element={<ContactUs />} />
+         <Route path="/shop" element={<Shop />} />
+         <Route path="/single-product" element={<SingleProduct />} />
+         <Route path="/shopping-cart" element={<Cart />} />
+         <Route path="/checkout" element={<Checkout />} />
+       </Routes>
+     </Router>
     </>
   )
 }
