@@ -5,7 +5,7 @@ import Header from "@/layouts/Header/Header";
 import Banner from "@/components/sections/Banner/Banner";
 import productsdata from "@/assets/data/pagination-data/dummydata";
 import ProductCard from "@/components/shared/ui/productcard.jsx";
-import ProductsFilter from "@/components/shared/ui/productsFilter.jsx";
+import ProductsFilter from "@/components/shared/ui/ProductsFilter.jsx";
 import Pagination from "@/components/shared/ui/Pagination";
 import CompanyInfo from "@/components/sections/CompanyInfo/CompanyInfo";
 import ClonnedFooter from "@/components/sections/ClonnedFooter/ClonnedFooter";
